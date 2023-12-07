@@ -1,0 +1,10 @@
+file: /etc/apache2/##user##.conf
+user: ##user##
+document_root: /home/##user##/www
+php_version: 7.4
+ssl: yes
+main_domain: ##main_domain##
+server_aliases:
+-
+-
+-
