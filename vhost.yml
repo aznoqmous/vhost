@@ -1,8 +1,9 @@
-file: /etc/apache2/##user##.conf
+server: ##server##
+file: /etc/apache2/sites-available/##user##.conf
 user: ##user##
 document_root: /home/##user##/www
 php_version: 7.4
-ssl: yes
+ssl: no
 main_domain: ##main_domain##
 server_aliases:
 -
